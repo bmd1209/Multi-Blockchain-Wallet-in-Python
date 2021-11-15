@@ -16,7 +16,7 @@ w3 = Web3(Web3.HTTPProvider("http://127.0.0.1.8545"))
 load_dotenv
 
 
-mnemonic = os.getenv('MNEMONIC', "win brave festival become force snack year around garbage rely void arch")
+mnemonic = os.getenv('MNEMONIC', "X")
 print(mnemonic)
 
 def derive_wallets(mnemonic, coin, numderive):
